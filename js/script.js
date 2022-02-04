@@ -1,11 +1,16 @@
 'use strict';
 
-// const category = "toys";
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
 
-// console.log(`https://someurl.com/${category}/5`);
+let personalMovieDB = {
+	count : numberOfFilms,
+	movies : {},
+	actors : {},
+	genders : [],
+	privat: false,
+};
 
-// const user = "Ivan";
+const lastWatchFilm = prompt('Один из последних просмотренных фильмов?', '');
+const markOfFilm = prompt('На сколько оцените его?', '');
 
-// alert(`Привет, ${user}`);
-
-console.log(2*4 == 8);
+console.log(personalMovieDB);

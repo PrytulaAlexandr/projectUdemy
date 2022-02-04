@@ -19,3 +19,20 @@
 // personalMovieDB.movies[c] = d;
 
 // console.log(personalMovieDB);
+
+// const num = '50';
+
+// switch (num){
+// 	case 49:
+// 		console.log("No");
+// 		break;
+// 	case 100:
+// 		console.log("No");
+// 		break;
+// 	case 50:
+// 		console.log("Yes");
+// 		break;
+// 	default:
+// 		console.log('Not now');
+// 		break;
+// }
